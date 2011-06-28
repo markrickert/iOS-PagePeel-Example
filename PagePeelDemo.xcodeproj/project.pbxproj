@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB0CAF413BA0FAD00040FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB0CAF313BA0FAD00040FCB /* UIKit.framework */; };
+		7BB0CAF613BA0FAD00040FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB0CAF513BA0FAD00040FCB /* Foundation.framework */; };
+		7BB0CAF813BA0FAD00040FCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB0CAF713BA0FAD00040FCB /* CoreGraphics.framework */; };
+		7BB0CAFE13BA0FAD00040FCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BB0CAFC13BA0FAD00040FCB /* InfoPlist.strings */; };
+		7BB0CB0113BA0FAD00040FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0CB0013BA0FAD00040FCB /* main.m */; };
+		7BB0CB0413BA0FAD00040FCB /* PagePeelDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0CB0313BA0FAD00040FCB /* PagePeelDemoAppDelegate.m */; };
+		7BB0CB0713BA0FAD00040FCB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB0CB0513BA0FAD00040FCB /* MainWindow.xib */; };
+		7BB0CB0A13BA0FAD00040FCB /* PagePeelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0CB0913BA0FAD00040FCB /* PagePeelDemoViewController.m */; };
+		7BB0CB0D13BA0FAD00040FCB /* PagePeelDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB0CB0B13BA0FAD00040FCB /* PagePeelDemoViewController.xib */; };
+		7BB0CB1413BA101F00040FCB /* SDW_wide_3green.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB0CB1313BA101F00040FCB /* SDW_wide_3green.png */; };
+		7BB0CB1E13BA12CE00040FCB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB0CB1D13BA12CE00040FCB /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BB0CAEF13BA0FAD00040FCB /* PagePeelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagePeelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB0CAF313BA0FAD00040FCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BB0CAF513BA0FAD00040FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BB0CAF713BA0FAD00040FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BB0CAFB13BA0FAD00040FCB /* PagePeelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagePeelDemo-Info.plist"; sourceTree = "<group>"; };
+		7BB0CAFD13BA0FAD00040FCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BB0CAFF13BA0FAD00040FCB /* PagePeelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PagePeelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7BB0CB0013BA0FAD00040FCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BB0CB0213BA0FAD00040FCB /* PagePeelDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagePeelDemoAppDelegate.h; sourceTree = "<group>"; };
+		7BB0CB0313BA0FAD00040FCB /* PagePeelDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagePeelDemoAppDelegate.m; sourceTree = "<group>"; };
+		7BB0CB0613BA0FAD00040FCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7BB0CB0813BA0FAD00040FCB /* PagePeelDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagePeelDemoViewController.h; sourceTree = "<group>"; };
+		7BB0CB0913BA0FAD00040FCB /* PagePeelDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagePeelDemoViewController.m; sourceTree = "<group>"; };
+		7BB0CB0C13BA0FAD00040FCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PagePeelDemoViewController.xib; sourceTree = "<group>"; };
+		7BB0CB1313BA101F00040FCB /* SDW_wide_3green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SDW_wide_3green.png; sourceTree = "<group>"; };
+		7BB0CB1D13BA12CE00040FCB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB0CAEC13BA0FAD00040FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB0CAF413BA0FAD00040FCB /* UIKit.framework in Frameworks */,
+				7BB0CAF613BA0FAD00040FCB /* Foundation.framework in Frameworks */,
+				7BB0CAF813BA0FAD00040FCB /* CoreGraphics.framework in Frameworks */,
+				7BB0CB1E13BA12CE00040FCB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB0CAE413BA0FAD00040FCB = {
+			isa = PBXGroup;
+			children = (
+				7BB0CAF913BA0FAD00040FCB /* PagePeelDemo */,
+				7BB0CAF213BA0FAD00040FCB /* Frameworks */,
+				7BB0CAF013BA0FAD00040FCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB0CAF013BA0FAD00040FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB0CAEF13BA0FAD00040FCB /* PagePeelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB0CAF213BA0FAD00040FCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BB0CB1D13BA12CE00040FCB /* QuartzCore.framework */,
+				7BB0CAF313BA0FAD00040FCB /* UIKit.framework */,
+				7BB0CAF513BA0FAD00040FCB /* Foundation.framework */,
+				7BB0CAF713BA0FAD00040FCB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BB0CAF913BA0FAD00040FCB /* PagePeelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7BB0CB0213BA0FAD00040FCB /* PagePeelDemoAppDelegate.h */,
+				7BB0CB0313BA0FAD00040FCB /* PagePeelDemoAppDelegate.m */,
+				7BB0CB0513BA0FAD00040FCB /* MainWindow.xib */,
+				7BB0CB0813BA0FAD00040FCB /* PagePeelDemoViewController.h */,
+				7BB0CB0913BA0FAD00040FCB /* PagePeelDemoViewController.m */,
+				7BB0CB0B13BA0FAD00040FCB /* PagePeelDemoViewController.xib */,
+				7BB0CAFA13BA0FAD00040FCB /* Supporting Files */,
+			);
+			path = PagePeelDemo;
+			sourceTree = "<group>";
+		};
+		7BB0CAFA13BA0FAD00040FCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB0CB1313BA101F00040FCB /* SDW_wide_3green.png */,
+				7BB0CAFB13BA0FAD00040FCB /* PagePeelDemo-Info.plist */,
+				7BB0CAFC13BA0FAD00040FCB /* InfoPlist.strings */,
+				7BB0CAFF13BA0FAD00040FCB /* PagePeelDemo-Prefix.pch */,
+				7BB0CB0013BA0FAD00040FCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB0CAEE13BA0FAD00040FCB /* PagePeelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB0CB1013BA0FAD00040FCB /* Build configuration list for PBXNativeTarget "PagePeelDemo" */;
+			buildPhases = (
+				7BB0CAEB13BA0FAD00040FCB /* Sources */,
+				7BB0CAEC13BA0FAD00040FCB /* Frameworks */,
+				7BB0CAED13BA0FAD00040FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagePeelDemo;
+			productName = PagePeelDemo;
+			productReference = 7BB0CAEF13BA0FAD00040FCB /* PagePeelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB0CAE613BA0FAD00040FCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Mark Rickert";
+			};
+			buildConfigurationList = 7BB0CAE913BA0FAD00040FCB /* Build configuration list for PBXProject "PagePeelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BB0CAE413BA0FAD00040FCB;
+			productRefGroup = 7BB0CAF013BA0FAD00040FCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB0CAEE13BA0FAD00040FCB /* PagePeelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB0CAED13BA0FAD00040FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB0CAFE13BA0FAD00040FCB /* InfoPlist.strings in Resources */,
+				7BB0CB0713BA0FAD00040FCB /* MainWindow.xib in Resources */,
+				7BB0CB0D13BA0FAD00040FCB /* PagePeelDemoViewController.xib in Resources */,
+				7BB0CB1413BA101F00040FCB /* SDW_wide_3green.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB0CAEB13BA0FAD00040FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB0CB0113BA0FAD00040FCB /* main.m in Sources */,
+				7BB0CB0413BA0FAD00040FCB /* PagePeelDemoAppDelegate.m in Sources */,
+				7BB0CB0A13BA0FAD00040FCB /* PagePeelDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BB0CAFC13BA0FAD00040FCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB0CAFD13BA0FAD00040FCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7BB0CB0513BA0FAD00040FCB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB0CB0613BA0FAD00040FCB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7BB0CB0B13BA0FAD00040FCB /* PagePeelDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB0CB0C13BA0FAD00040FCB /* en */,
+			);
+			name = PagePeelDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB0CB0E13BA0FAD00040FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BB0CB0F13BA0FAD00040FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7BB0CB1113BA0FAD00040FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagePeelDemo/PagePeelDemo-Prefix.pch";
+				INFOPLIST_FILE = "PagePeelDemo/PagePeelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7BB0CB1213BA0FAD00040FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagePeelDemo/PagePeelDemo-Prefix.pch";
+				INFOPLIST_FILE = "PagePeelDemo/PagePeelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB0CAE913BA0FAD00040FCB /* Build configuration list for PBXProject "PagePeelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB0CB0E13BA0FAD00040FCB /* Debug */,
+				7BB0CB0F13BA0FAD00040FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB0CB1013BA0FAD00040FCB /* Build configuration list for PBXNativeTarget "PagePeelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB0CB1113BA0FAD00040FCB /* Debug */,
+				7BB0CB1213BA0FAD00040FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB0CAE613BA0FAD00040FCB /* Project object */;
+}
