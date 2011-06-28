@@ -11,7 +11,7 @@
 
 @implementation PagePeelDemoViewController
 
-@synthesize textHere, peelIt;
+@synthesize textHere, peelIt, effect;
 
 - (void)viewDidLoad
 {
@@ -27,6 +27,7 @@
 
 - (void)dealloc
 {
+  [effect release];
   [textHere release];
   [peelIt release];
   [super dealloc];
@@ -48,10 +49,26 @@
   
   //This is where you would do everything to clear your interface
   self.textHere.text = @""; //Set the text field to blank
+
+  //Pick the effect
+  int effectToUse;
+  if(self.effect.selectedSegmentIndex == 0)
+  {
+    effectToUse = UIViewAnimationOptionTransitionCurlUp;
+  }
+  else if(self.effect.selectedSegmentIndex == 1)
+  {
+    effectToUse = UIViewAnimationOptionTransitionFlipFromLeft;
+  }
+  else
+  {
+    effectToUse = UIViewAnimationOptionTransitionCurlDown;
+  }
+  
   
   [UIView transitionWithView:self.view 
                     duration:1
-                     options:UIViewAnimationOptionTransitionCurlUp
+                     options:effectToUse
                   animations:^{
                     //Nothing here
                   }

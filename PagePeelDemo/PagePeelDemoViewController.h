@@ -14,6 +14,7 @@
 
 @property (nonatomic, retain) IBOutlet UITextField *textHere;
 @property (nonatomic, retain) IBOutlet UIButton *peelIt;
+@property (nonatomic, retain) IBOutlet UISegmentedControl *effect;
 
 - (IBAction) pressedPeelIt:(UIButton *)sender;
 - (UIImage *)captureScreen;
