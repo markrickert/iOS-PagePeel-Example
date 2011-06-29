@@ -17,6 +17,5 @@
 @property (nonatomic, retain) IBOutlet UISegmentedControl *effect;
 
 - (IBAction) pressedPeelIt:(UIButton *)sender;
-- (UIImage *)captureScreen;
 
 @end

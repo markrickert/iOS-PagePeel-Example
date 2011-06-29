@@ -44,7 +44,6 @@
   //Create a new UIView and set the background color to be a UIColor with
   // pattern image of a screen capture
   UIView *imgView = [[UIView alloc] init];
-  imgView.backgroundColor = [UIColor colorWithPatternImage:[self captureScreen]];
   [self.view addSubview:imgView];  
   
   //This is where you would do everything to clear your interface
@@ -80,19 +79,6 @@
                   }
    ];
   
-}
-
-/*
- Generic code to capture the whole screen. You could modify this to only capture a portion of the screen.
- If you're seeing a syntax error here, you need to add the QuartzCore.framework to your project and import the header.
-*/
--(UIImage *)captureScreen
-{
-	UIGraphicsBeginImageContext(self.view.frame.size);
-	[self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
-	UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
-	UIGraphicsEndImageContext();
-  return viewImage;
 }
 
 @end
