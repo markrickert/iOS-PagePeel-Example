@@ -7,7 +7,6 @@
 //
 
 #import "PagePeelDemoViewController.h"
-#import <QuartzCore/QuartzCore.h>
 
 @implementation PagePeelDemoViewController
 
