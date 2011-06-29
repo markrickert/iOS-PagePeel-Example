@@ -40,8 +40,7 @@
   
   [self.textHere resignFirstResponder];
   
-  //Create a new UIView and set the background color to be a UIColor with
-  // pattern image of a screen capture
+  //Create a new UIView
   UIView *imgView = [[UIView alloc] init];
   [self.view addSubview:imgView];  
   
